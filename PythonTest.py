@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 # Function to calculate total points
 def calculate_points(age, sex, tumor_size, seer_stage, cystectomy, chemotherapy):
     points = 0
