@@ -1,3 +1,4 @@
+import streamlit as st
 # Function to calculate total points
 def calculate_points(age, sex, tumor_size, seer_stage, cystectomy, chemotherapy):
     points = 0
