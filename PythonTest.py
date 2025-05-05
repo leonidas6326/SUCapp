@@ -1,15 +1,3 @@
-pip install streamlit
-import streamlit as st
-import pandas as pd
-streamlit hello
-python -m venv .venv
-source .venv/bin/activate
-pip install streamlit
-streamlit hello
-python -m streamlit hello
-python -m streamlit run hello.py
-import streamlit as st
-
 # Function to calculate total points
 def calculate_points(age, sex, tumor_size, seer_stage, cystectomy, chemotherapy):
     points = 0
