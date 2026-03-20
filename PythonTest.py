@@ -57,13 +57,13 @@ def calculate_points(age, sex, tumor_size, seer_stage, cystectomy, chemotherapy)
 def calculate_survival_probability(points):
     # Assuming a linear conversion, adjust according to your real mapping (or curve)
     if points < 100:
-        survival_probability = 0.50  # Example value for low risk
+        survival_probability = 0.61  # Example value for low risk
     elif points < 150:
         survival_probability = 0.37  # Intermediate
     elif points < 200:
-        survival_probability = 0.15  # High risk
+        survival_probability = 0.12  # High risk
     else:
-        survival_probability = 0.03  # Very high risk
+        survival_probability = 0.05  # Very high risk
     return survival_probability
 
 # Streamlit user interface
