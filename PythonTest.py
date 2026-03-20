@@ -63,7 +63,7 @@ def calculate_survival_probability(points):
     elif points < 200:
         survival_probability = 0.12  # High risk
     else:
-        survival_probability = 0.05  # Very high risk
+        survival_probability = 0.03  # Very high risk
     return survival_probability
 
 # Streamlit user interface
